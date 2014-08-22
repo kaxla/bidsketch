@@ -1,0 +1,3 @@
+##Diagnose the Ticket:
+
+&#x20AC is the UTF code for the euro symbol so UTF-8 is not rendering correctly for some reason. It could be that we forgot to put the character encoding in the HTML header. Or it could be that we forgot to specify in the database and things are getting saved in another encoding. It could also be that this guy is using a super old browser/OS or has some setting checked or unchecked that shouldn't be. The last one seems most likely because we probably would have realized the first two some time during the 5+ years of the app existing.
